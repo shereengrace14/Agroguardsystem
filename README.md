@@ -13,3 +13,7 @@ This is a basic smart agriculture project.
 
 ## Status
 🚧 Under Development
+## Future Enhancements
+- IoT sensor integration
+- Mobile alerts
+- AI-based crop prediction
