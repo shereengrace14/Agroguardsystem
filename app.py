@@ -1,7 +1,10 @@
-import random
+from flask import Flask
 
-def get_data():
-    return {
-        "temperature": random.randint(20, 40),
-        "moisture": random.randint(0, 100)
-    }
+app = Flask(__name__)
+
+@app.route('/')
+def home():
+    return "🌱 Agro Guard System is running!"
+
+if __name__ == "__main__":
+    app.run()
